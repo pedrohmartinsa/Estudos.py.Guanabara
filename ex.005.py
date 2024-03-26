@@ -1,5 +1,4 @@
-n1 = int(input('digite um número:'))
-d = n1 * 2
-t = n1 * 3
-r = n1 ** (1/2)
-print(f'o dobro de {n1} é, {d}, o triplo é, {t} e sua raíz quadrada é, {r}')
+n1 = int(input('Digite um número:'))
+s = n1 + 1
+sb = n1 - 1
+print(f'O sucessor de {n1} é {s} e o antecessor é {sb}')

@@ -1,4 +1,5 @@
-n1 = int(input('Qual foi sua nota no primeiro semestre?'))
-n2 = int(input('E no segundo?'))
-m = (n1 + n2) / 2
-print(f'Sua média anual foi de: {m}')
+n1 = int(input('digite um número:'))
+d = n1 * 2
+t = n1 * 3
+r = n1 ** (1/2)
+print(f'o dobro de {n1} é {d} \n o triplo é {t} \n e sua raíz quadrada é {r :.2f}')

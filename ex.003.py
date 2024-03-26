@@ -1,9 +1,4 @@
-x = input('digite algo:')
-print('o tipo primitivo desse texto é:', type(x))
-print('esse texto é um número e/ou número?', x.isalnum())
-print('esse texto é uma letra do alfabeto?', x.isalpha())
-print('está em minúsculo?', x.islower())
-print('tem número?', x.isnumeric())
-print('tem espaço?', x.isspace())
-print('está capitalizada?', x.istitle())
-print('está em maiúculo?', x.isupper())
+n1 = int(input('Digite um número:'))
+n2 = int(input('Digite outro número:'))
+s = n1 + n2
+print('a soma entre {} e {}, vale: {}'.format(n1, n2, s))
