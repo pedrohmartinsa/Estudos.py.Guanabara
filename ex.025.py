@@ -1,2 +1,2 @@
-cid = str(input('digite o nome de sua cidade:')).strip()
-print(cid[0:5].upper() == 'SANTO')
+nome = str(input('Digite seu nome inteiro:')).strip().upper()
+print('Seu nome tem Silva? {}'.format('silva' in nome.lower()))
