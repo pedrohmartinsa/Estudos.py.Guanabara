@@ -17,3 +17,6 @@ if tempo <= 3:
 else:
     print('carro velho')
 print('--FIM--')'''
+
+#\033[0;30;41m
+print('\033[0;30;41mvamo\033[m')
