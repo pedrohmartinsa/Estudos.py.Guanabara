@@ -18,5 +18,15 @@ else:
     print('carro velho')
 print('--FIM--')'''
 
+#adicionar cor
 #\033[0;30;41m
-print('\033[0;30;41mvamo\033[m')
+'''print('\033[0;30;41mvamo\033[m')'''
+
+#ordenando lista
+'''a1 = input('Primeiro número:')
+a2 = input('Segundo número:')
+a3 = input('Terceiro número:')
+a4 = input('Quarto número:')
+lista = [a1, a2, a3, a4]
+lista.sort()
+print(f'O menor número é {lista[0]} e o maior é {lista[-1]}')'''
