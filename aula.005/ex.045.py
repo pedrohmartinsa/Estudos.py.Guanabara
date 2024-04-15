@@ -6,7 +6,7 @@ escolha = input('Pedra, papel ou tesoura? ').upper()
 lista = ['Pedra', 'Papel', 'Tesoura']
 escolhidoComputador = choice(lista)
 
-print(escolhidoComputador)
+print(f'O computador jogou {escolhidoComputador}')
 
 if escolha == 'PEDRA' and escolhidoComputador == 'Pedra':
     print('Deu empate, jogue novamente.')

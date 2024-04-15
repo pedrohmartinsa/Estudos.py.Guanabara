@@ -19,7 +19,7 @@ elif forma == 2:
             print(f'O valor a ser pago será R${a:.2f} em duas parcelas.')
         else:
             a = valor / qtd + (valor / qtd * 0.2)
-            print(f'O valor a ser pago, com 20% de juros e parcelado em {qtd} ficará R${a:.2f}')
+            print(f'O valor a ser pago, com 20% de juros e parcelado em {qtd}x ficará R${a:.2f}')
 else:
     print('Forma de pagamento inválida, reinicie o programa.')
 

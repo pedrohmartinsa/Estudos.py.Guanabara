@@ -11,7 +11,7 @@ elif n2 + n1 > n3:
 else:
     print('Não é possível construir um triângulo com os valores escolhidos')'''
 
-if n1 < n2 + n3 and n2 < n1 + n3 or n3 < n1 + n2:
+if n1 < n2 + n3 and n2 < n1 + n3 and n3 < n1 + n2:
     print('É possível construir um triângulo com os valores escolhidos!')
 else:
     print('Não é possível construir um triângulo com os valores escolhidos')
