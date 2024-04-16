@@ -48,3 +48,6 @@ for c in range(i, f+1, p):
     print(c)
     sleep(0.5)'''
 
+#mostra a frase ao contrário
+'''frase = input('Digite uma frase: ')
+print(frase[::-1])'''
