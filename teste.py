@@ -30,3 +30,21 @@ a4 = input('Quarto número:')
 lista = [a1, a2, a3, a4]
 lista.sort()
 print(f'O menor número é {lista[0]} e o maior é {lista[-1]}')'''
+
+#laço
+'''from time import sleep
+n = int(input('Digite um número: '))
+for c in range(0, n+1):
+    print(c)
+    sleep(0.5)
+print('FIM')'''
+
+#Início da contagem, fim da contagem, e quantos números é pra pular de um para o outro
+'''from time import sleep
+i = int(input('Início: '))
+f = int(input('Fim: '))
+p = int(input('Passo: '))
+for c in range(i, f+1, p):
+    print(c)
+    sleep(0.5)'''
+
