@@ -1,6 +1,6 @@
-#TABUADA ATUALIZADA
+#TABUADA ATUALIZADA (aqui usei um contador)
 from time import sleep
-n = int(input('Digite um número inteiro: '))
+n = int(input('Digite um número inteiro para ver sua tabuada: '))
 s = 0
 for c in range(0, 10):
     s += 1
