@@ -51,3 +51,12 @@ for c in range(i, f+1, p):
 #mostra a frase ao contrário
 '''frase = input('Digite uma frase: ')
 print(frase[::-1])'''
+
+#contagem com while
+'''from time import sleep 
+c = 0
+while c < 10:
+    c += 1
+    print(c)
+    sleep(0.5)
+print('acabou')'''
