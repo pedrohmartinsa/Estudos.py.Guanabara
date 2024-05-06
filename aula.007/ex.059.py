@@ -8,10 +8,11 @@ msg = '''
 [5] ==> SAIR DO PROGRAMA 
 '''
 comando = 1
+n1 = int(input('Digite o primeiro valor: '))
+n2 = int(input('Digite o segundo: '))
 while comando != 5:
-    n1 = int(input('Digite o primeiro valor: '))
-    n2 = int(input('Digite o segundo: '))
     print()
+    sleep(1)
     print(msg)
     comando = int(input('Comando:'))
     print()
@@ -36,6 +37,8 @@ while comando != 5:
     #Novos números
     elif comando == 4:
         print('Voltando...')
+        n1 = int(input('Digite o primeiro valor: '))
+        n2 = int(input('Digite o segundo: '))
         sleep(2)
     #Sair do programa
     elif comando == 5:
