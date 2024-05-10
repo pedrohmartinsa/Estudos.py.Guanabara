@@ -60,3 +60,24 @@ while c < 10:
     print(c)
     sleep(0.5)
 print('acabou')'''
+
+#contador usando True e break
+'''from time import sleep
+cont = 0
+while True:
+    cont += 1
+    print(cont)
+    sleep(1)
+    if cont == 10:
+        print('FIM.')
+        break'''
+
+#sem contar o 999 sem usar gambiarra
+'''n = s = 0
+while True:
+    n = int(input('Digite um número:'))
+    if n == 999:
+        break #para parar o código 
+    s += n #posicionado aqui para não contar o 999
+print(f'A soma entre eles é igual a {s}')'''
+
