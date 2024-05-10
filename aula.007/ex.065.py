@@ -21,7 +21,6 @@ while i < 1:
     if n < menorNumero:
         menorNumero = n
 
-
     if r in 'Nn':
         count += 1
         soma += n
