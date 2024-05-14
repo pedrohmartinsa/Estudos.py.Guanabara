@@ -1,10 +1,10 @@
 from time import sleep
-from random import uniform #para escolher um número aleatorimanete
+from random import randint #para escolher um número aleatorimanete
 
 count = 0
 
 while True:
-    comp = int(uniform(0, 10))
+    comp = randint(0, 10)
     print()
 
     print('[P] para par ou [I] para ímpar.')

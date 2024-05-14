@@ -3,7 +3,7 @@ from time import sleep
 cont = cont18 = contHomem = contMulher20 = 0
 
 while True:
-    idade = int(input('Qual a sua idade? '))
+    idade = int(input('Idade: '))
     sexo = str(input('Sexo [F/M]:'))
     cont += 1
     while True:

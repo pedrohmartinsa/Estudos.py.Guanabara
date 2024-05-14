@@ -81,3 +81,7 @@ while True:
     s += n #posicionado aqui para não contar o 999
 print(f'A soma entre eles é igual a {s}')'''
 
+
+
+nome = len('     BANCO PEDRO     ')
+print(nome)
