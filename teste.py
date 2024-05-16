@@ -82,6 +82,21 @@ while True:
 print(f'A soma entre eles é igual a {s}')'''
 
 
+#diferentes formas de manipular a tupla usando for
+'''lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim')'''
 
-nome = len('     BANCO PEDRO     ')
-print(nome)
+'''for pos, comida in enumerate(lanche):
+    print(f'Eu vou comer {comida} na posição {pos}')'''
+
+'''for cont in range(0, len(lanche)):
+    print(f' vou comer {lanche[cont]} na posição {cont}')'''
+
+
+'''for comida in lanche:
+    print(f'Eu vou comer {comida}.')
+print('To cheio.')'''
+
+#para ordenar a tupla
+'''lanche = ('Hambúrguer', 'Suco', 'Pizza', 'Pudim')
+
+print(sorted(lanche))'''
