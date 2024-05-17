@@ -19,7 +19,9 @@ print()
 #últimos 4
 print('Últimos colocados:')
 
-print(timesBrasileirao[::-1])
+print(timesBrasileirao[:-5:-1])
+
+
 
 '''for cont in timesBrasileirao[-1:-4]:
     print(f'{cont}°: {timesBrasileirao}')'''
