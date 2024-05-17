@@ -38,4 +38,4 @@ print()
 #Posição do Corinthians
 p = timesBrasileirao.index('Corinthians')
 
-print(f'O Corinthians está na {p}° colocação.')
+print(f'O Corinthians está na {p + 1}° colocação.')
