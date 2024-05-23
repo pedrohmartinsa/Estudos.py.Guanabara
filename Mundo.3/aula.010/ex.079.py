@@ -16,7 +16,8 @@ while True:
     if r in 'Nn':
         break
 
-
-
-print(f'Os valores digitados foram: {lista}')
+a = lista[:]
+lista.sort()
+print(f'Os valores digitados foram: {a}')
+print(f'Os valores digitados, em ordem crescente, foram: {lista}')
 print('FIM.')
