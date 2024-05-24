@@ -18,6 +18,7 @@ while True:
 
 a = lista[:]
 lista.sort()
+print()
 print(f'Os valores digitados foram: {a}')
 print(f'Os valores digitados, em ordem crescente, foram: {lista}')
 print('FIM.')

@@ -102,3 +102,20 @@ print('To cheio.')'''
 print(sorted(lanche))'''
 
 
+'''galera = []
+dados = []
+
+while True:
+    dados.append(str(input('Nome:')))
+    dados.append(int(input('Peso:')))
+    galera.append(dados[:])
+    dados.clear()
+
+    r = str(input('Deseja continuar?[S/N] '))
+    while r not in 'SsNn':
+        r = str(input('Deseja continuar?[S/N] '))
+    if r in 'Nn':
+        break
+
+for p in galera:
+    print(p[1])'''
