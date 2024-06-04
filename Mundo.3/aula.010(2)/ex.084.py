@@ -8,7 +8,7 @@ levesPeso = []
 
 while True:
     dados.append(str(input('Nome:')))
-    dados.append(int(input('Peso:')))
+    dados.append(float(input('Peso:')))
     galera.append(dados[:])
     dados.clear()
 
@@ -21,7 +21,7 @@ while True:
 
 print(f'Foram cadastradas {len(galera)} pessoas.')
 for p in galera:
-    if p[1] >= 100:
+    if p[1] >= 70:
         pesadosNome.append(p[0])
         pesadosPeso.append(p[1])
     elif p[1] <= 70:
