@@ -7,7 +7,7 @@ print('-' * 40)
 print(f'{"JOGA NA MEGA SENA":^40}')
 print('-' * 40)
 
-numeroSorteios = int(input('Quantos jogos deseja que sejam sorteados? '))
+numero_sorteios = int(input('Quantos jogos deseja que sejam sorteados? '))
 
 for c in range(0, numeroSorteios):
     while len(numAleatoriosUm1a60) < 6:
