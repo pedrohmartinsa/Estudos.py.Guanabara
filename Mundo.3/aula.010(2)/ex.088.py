@@ -9,7 +9,7 @@ print('-' * 40)
 
 numero_sorteios = int(input('Quantos jogos deseja que sejam sorteados? '))
 
-for c in range(0, numeroSorteios):
+for c in range(0, numero_sorteios):
     while len(numAleatoriosUm1a60) < 6:
         num = randint(0, 60)
         if num in numAleatoriosUm1a60:
