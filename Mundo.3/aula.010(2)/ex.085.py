@@ -1,19 +1,13 @@
-lista = []
-pares = []
-impares = []
+lista = [[], []]
 
-for c in range(0, 7):
-
-    n = int(input(f'Digite o {c+1}o valor: '))
-    lista.append(n)
-
-for num in lista:
-    if num % 2 == 0:
-        pares.append(num)
+for c in range(1, 8):
+    n = int(input(f'Digite o {c}o. valor: '))
+    if n % 2 == 0:
+        lista[0].append(n)
     else:
-        impares.append(num)
+        lista[1].append(n)
 
-pares.sort()
-print(f'Os números pares digitados foram: {pares}')
-impares.sort()
-print(f'Os números impares digitados foram: {impares}')
+lista[0].sort()
+print(f'Os números pares digitados foram: {lista[0]}')
+lista[1].sort()
+print(f'Os números impares digitados foram: {lista[1]}')
