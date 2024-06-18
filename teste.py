@@ -120,6 +120,18 @@ while True:
 for p in galera:
     print(p[1])'''
 
-
+#dicionario estruturas
+'''
+pessoas = {'nome': 'Gustavo', 'sexo': 'M', 'idade': 22}
+pessoas['peso'] = 78.6 #adiciona um item
+for k in pessoas.keys():
+    print(k)
+print()
+for v in pessoas.values():
+    print(v)
+print()
+for k,v in pessoas.items():
+    print(f'{k} = {v}')
+'''
 
 
