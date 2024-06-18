@@ -2,9 +2,9 @@ grupo = []
 dados = []
 
 while True:
-    dados.append(input('Nome: '))
-    dados.append(float(input('Nota 1: ')))
-    dados.append(float(input('Nota 2: ')))
+    dados.append(input('Nome: ').strip())
+    dados.append(float(input('Nota 1: ').strip()))
+    dados.append(float(input('Nota 2: ').strip()))
     dados.append((dados[1] + dados[2]) / 2)
     grupo.append(dados[:])
     dados.clear()
@@ -19,7 +19,7 @@ while True:
 i = 0
 for aluno in grupo:
     i += 1
-    print(f'{i}- Nome:{aluno[0]}; Media: {aluno[3]}')
+    print(f'{i}- Nome: {aluno[0]}; Media: {aluno[3]}')
 print()
 while True:
     pergunta_notas = int(input('Digite o número do aluno que deseja ver a nota: [999 para sair]'))
