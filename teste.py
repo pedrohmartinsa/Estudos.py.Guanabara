@@ -134,4 +134,3 @@ for k,v in pessoas.items():
     print(f'{k} = {v}')
 '''
 
-
