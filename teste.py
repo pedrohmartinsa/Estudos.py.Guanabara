@@ -133,4 +133,6 @@ print()
 for k,v in pessoas.items():
     print(f'{k} = {v}')
 '''
-
+name = 'Pedro'
+name2 = 4
+print(f'{name}   {name2:>2}')
