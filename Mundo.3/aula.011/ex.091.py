@@ -10,7 +10,7 @@ for k, v in num.items():
     print(f'O {k} tirou {v} no dado.')
     sleep(0.5)
 print('Ranking dos jogadores:')
-rank = sorted(num.items(), key=itemgetter(1), reverse=True)
-for i, v in enumerate(rank):
+ranking = sorted(num.items(), key=itemgetter(1), reverse=True)
+for i, v in enumerate(ranking):
     print(f'{i+1}º colocado: {v[0]} com {v[1]}')
     sleep(0.5)
