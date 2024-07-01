@@ -1,3 +1,5 @@
+from time import sleep
+
 '''nome = input('Olá, como posso te chamar?')
 print(f'Seja bem vindo a calculadora, {nome}')
 n1 = int(input('Escolha um número:'))
@@ -133,6 +135,5 @@ print()
 for k,v in pessoas.items():
     print(f'{k} = {v}')
 '''
-name = 'Pedro'
-name2 = 4
-print(f'{name}   {name2:>2}')
+
+
