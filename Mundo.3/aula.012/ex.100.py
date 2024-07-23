@@ -18,3 +18,6 @@ def somaPares():
             soma += numero
     print(f'Soma dos números pares: {soma}')
 
+
+sorteio()
+somaPares()

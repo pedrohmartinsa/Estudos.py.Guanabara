@@ -44,4 +44,5 @@ def contador_com_input():
         print('=~' * 30)
         print('FIM.')
 
+
 main()
