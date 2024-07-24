@@ -135,5 +135,7 @@ print()
 for k,v in pessoas.items():
     print(f'{k} = {v}')
 '''
-
-
+num = 5
+for c in range(num-1, 0, -1):
+    num *= c
+    print(f'{c}', end=' x ')
