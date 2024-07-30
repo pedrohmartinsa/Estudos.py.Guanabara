@@ -1,18 +1,15 @@
-from datetime import date
-
-
-def vote():
-    year = int(input('Ano de nascimento: '))
+def vote(year):
+    from datetime import date
     age = date.today().year - year
 
     print(f'Com {age} anos: ', end='')
 
     if age < 16:
-        print('Não vota.')
+        return 'Não vota.'
     if age >= 65 or 16 <= age < 18:
-        print('Voto opcional.')
+        return 'Voto opcional.'
     if 65 > age >= 18:
-        print('Voto obrigatório.')
+        return 'Voto obrigatório.'
 
 
-vote()
+print(vote(2000))
