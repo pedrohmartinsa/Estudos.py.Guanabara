@@ -15,6 +15,9 @@ def readFloat(msg):
         except (ValueError, TypeError):
             print('ERRO! Digite um número real válido.')
             continue
+        except (KeyboardInterrupt):
+            print('\nUsuário preferiu não responder.')
+            return 0
         else:
             return n
 
