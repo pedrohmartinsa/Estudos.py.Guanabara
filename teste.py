@@ -135,8 +135,8 @@ print()
 for k,v in pessoas.items():
     print(f'{k} = {v}')
 '''
-def n(*num):
-    print(num)
+letra = ('a', 'b')
+print(letra.index('a'))
 
 
-n(12, 15, 20)
+

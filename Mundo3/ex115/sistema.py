@@ -12,9 +12,12 @@ while True:
         # mostrar o arquivo com as pessoas
         leiaArquivo(arq)
     elif escolha == 2:
-        cabecalho('Opção 2')
+        cabecalho('NOVO CADASTRO')
+        nome = str(input('Nome: '))
+        idade = readInt('Idade: ')
+        cadastrar(arq, nome, idade)
     elif escolha == 3:
-        cabecalho('Opção 3')
+        cabecalho('Saindo do sistema... Até logo!')
         break
     else:
         erro('ERRO! Escolha uma opção válida')
