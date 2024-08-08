@@ -1,12 +1,4 @@
-def linha(tam=42):
-    return '-' * tam
-
-
-def cabecalho(msg):
-    print(linha())
-    print(msg.center(len(linha())))
-    print(linha())
-
+from Mundo3.ex115.lib.interface import *
 
 def arquivoExiste(nome):
     try:
